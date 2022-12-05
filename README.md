@@ -1,1 +1,3 @@
 # News-recommendation-system
+
+This project uses the datasets from a media company which contains information about how readers interacted with news article. They could have commented on it, liked it or saved it. Depending on it we perform feature engineering and assign ratings. The end goal is to recommend news articles according to users preferences. We use collaborating filtering technique to map users with similar interests and recommend their preferences accordingly.We create usermatrix using cosine similarity and use dot product on user matrix and user-items matrix. Final recommendations are made using several merges to finally extract the news article title corresponding to the top recommendations.
